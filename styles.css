@@ -1,0 +1,51 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color:#000000;
+    padding: 15px;
+    font-size: 20px;
+    font-family: optima;
+    font-weight: 400;
+    color: #ffffff;
+}
+body{
+    margin: 0px;
+    /* modify background color here*/
+    background-color:#2B59FF;
+    font-family: Phosphate;
+    
+}
+
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    font-family: Phosphate;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap
+    
+}
+.grid img{
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap
+}
+.origami {
+    
+    border-radius: 40px;
+    background-color: #012194;
+    /* modify margin and padding here*/
+    padding: 20px;
+    margin: 30px;
+    width:320px;
+    height:50;
+    font-family: Avenir;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap
+}
